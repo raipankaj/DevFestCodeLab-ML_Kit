@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MLKitCodelab</string>
+    <string name="unable_to_fetch_text">Unable to recognize text from the image</string>
+    <string name="toast_un_able_to_extract_text">Unable to extract text from the image</string>
+    <string name="toast_un_able_to_detect_face">Unable to detect face from the image</string>
+    <string name="toast_un_able_to_read_bar_code">Unable to detect barcode from the image</string>
+    <string name="face_detection">Face Detection</string>
+    <string name="barcode_scan">Barcode Scan</string>
+    <string name="text_recognition">Text Recognition</string>
+    <string name="select_image">Select Image</string>
+</resources>

@@ -1,0 +1,192 @@
+{
+  "project_info": {
+    "project_number": "643940126114",
+    "firebase_url": "https://fifa-poll.firebaseio.com",
+    "project_id": "fifa-poll",
+    "storage_bucket": "fifa-poll.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643940126114:android:5bab7e42afc09111",
+        "android_client_info": {
+          "package_name": "com.sample.notificationplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643940126114-79uvfjbo0dkcr6njhvo1vu96i6fuo4r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdULZdAa2Ql7tE4u6QUSx0yf6f1P4V2bc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643940126114:android:548eefc0db9d5288",
+        "android_client_info": {
+          "package_name": "com.sample.quizify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643940126114-nc1bpc3strd6coiiq38720cti86g8c5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sample.quizify",
+            "certificate_hash": "ec24a4f646b6b89ab3c01afa94194f8bda3b7ef4"
+          }
+        },
+        {
+          "client_id": "643940126114-79uvfjbo0dkcr6njhvo1vu96i6fuo4r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdULZdAa2Ql7tE4u6QUSx0yf6f1P4V2bc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643940126114-79uvfjbo0dkcr6njhvo1vu96i6fuo4r9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643940126114:android:8a2e6a98b0bf2de1",
+        "android_client_info": {
+          "package_name": "devfest.hyd.mlkitcodelab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643940126114-79uvfjbo0dkcr6njhvo1vu96i6fuo4r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdULZdAa2Ql7tE4u6QUSx0yf6f1P4V2bc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643940126114:android:1e67bfbeffc7c5de",
+        "android_client_info": {
+          "package_name": "poll.com.fifapoll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643940126114-hgttds86t9ubn5b65lud8vbmft3epr2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "poll.com.fifapoll",
+            "certificate_hash": "ec24a4f646b6b89ab3c01afa94194f8bda3b7ef4"
+          }
+        },
+        {
+          "client_id": "643940126114-79uvfjbo0dkcr6njhvo1vu96i6fuo4r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdULZdAa2Ql7tE4u6QUSx0yf6f1P4V2bc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643940126114-79uvfjbo0dkcr6njhvo1vu96i6fuo4r9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643940126114:android:4a1bed4b40c82e3e",
+        "android_client_info": {
+          "package_name": "sample.com.quizifyadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643940126114-79uvfjbo0dkcr6njhvo1vu96i6fuo4r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdULZdAa2Ql7tE4u6QUSx0yf6f1P4V2bc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

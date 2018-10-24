@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:fillViewport="true">
+
+    <Button android:id="@+id/btTextRec"
+            android:text="@string/text_recognition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            android:layout_margin="@dimen/margin_12"/>
+
+    <Button android:id="@+id/btBarcodeScan"
+            android:text="@string/barcode_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_margin="@dimen/margin_12"/>
+
+    <Button android:id="@+id/btFaceDetect"
+            android:text="@string/face_detection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_margin="@dimen/margin_12"/>
+
+</LinearLayout>
