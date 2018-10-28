@@ -51,7 +51,7 @@ class BarcodeActivity : AppCompatActivity() {
          * device which will be used for on device and cloud API detectors
          */
         val vision = FirebaseVisionImage.fromBitmap(bitmap)
-
+        ivSelectedImage.setImageBitmap(bitmap)
 
         /** Create barcode detector on the instance of firebase vision */
         val barcodeReader = FirebaseVision.getInstance().visionBarcodeDetector

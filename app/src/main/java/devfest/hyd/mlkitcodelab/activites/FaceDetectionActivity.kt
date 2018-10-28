@@ -15,6 +15,9 @@ import devfest.hyd.mlkitcodelab.utils.askRuntimePermission
 import kotlinx.android.synthetic.main.layout_vision.*
 import java.io.IOException
 import java.lang.StringBuilder
+import com.google.firebase.ml.vision.face.FirebaseVisionFaceDetectorOptions
+
+
 
 class FaceDetectionActivity : AppCompatActivity() {
 
@@ -50,18 +53,26 @@ class FaceDetectionActivity : AppCompatActivity() {
          * device which will be used for on device and cloud API detectors
          */
         val vision = FirebaseVisionImage.fromBitmap(bitmap)
+        ivSelectedImage.setImageBitmap(bitmap)
+
+        val options = FirebaseVisionFaceDetectorOptions.Builder()
+            .setPerformanceMode(FirebaseVisionFaceDetectorOptions.ACCURATE)
+            .setLandmarkMode(FirebaseVisionFaceDetectorOptions.ALL_LANDMARKS)
+            .setClassificationMode(FirebaseVisionFaceDetectorOptions.ALL_CLASSIFICATIONS)
+            .build()
 
         /** Create face detector on the instance of firebase vision */
-        val faceDetector = FirebaseVision.getInstance().visionFaceDetector
+        val faceDetector = FirebaseVision.getInstance().getVisionFaceDetector(options)
 
         /** Pass firebase vision image to detector's detectInImage method */
         faceDetector.detectInImage(vision)
             .addOnCompleteListener {
                 val stringBuilder = StringBuilder()
+
                 if (it.isSuccessful) {
                     it.result?.let { visionFace ->
                         for (face in visionFace) {
-                            stringBuilder.append(face.smilingProbability).append("\n")
+                            stringBuilder.append("Smile Probability: ").append(face.smilingProbability).append("\n")
                         }
                         tvExtractedText.text = stringBuilder.toString()
                     }

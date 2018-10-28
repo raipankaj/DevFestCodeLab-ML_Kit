@@ -53,11 +53,12 @@ class TextRecognitionActivity : AppCompatActivity() {
          * device which will be used for on device and cloud API detectors
          */
         val vision: FirebaseVisionImage = FirebaseVisionImage.fromBitmap(bitmap)
+        ivSelectedImage.setImageBitmap(bitmap)
 
         /* Create text detector on the instance of firebase vision */
         val recognizer: FirebaseVisionTextRecognizer = FirebaseVision.getInstance().onDeviceTextRecognizer
 
-        /* Pass firebase vision image to detector's process image method */
+        /* Pass firebase vision image to detector's process ivSelectedImageimage method */
         recognizer.processImage(vision)
             .addOnCompleteListener {
                 if (it.isSuccessful) {
